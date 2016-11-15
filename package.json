@@ -9,7 +9,7 @@
   "jsnext:main": "dist/rollup-plugin-ractivec.es.js",
   "module": "dist/rollup-plugin-ractivec.es.js",
   "scripts": {
-    "build": "rollup -c",   
+    "build": "rollup -c" 
   },
   "files": [
     "dist",
