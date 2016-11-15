@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-ractivec",
   "description": "Compile Ractive template",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "author": "Peter Denev",
   "repository": "https://github.com/peterdenev/rollup-plugin-ractivec",
   "license": "MIT",

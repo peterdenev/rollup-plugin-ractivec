@@ -18,8 +18,7 @@ export default function ractivec ( options = {} ) {
 			if ( !~extensions.indexOf( extname( id ) ) ) return null;
 			
 			//Parse template in Ractive
-			let parsedTpl = Ractive.parse(code, parseOptions);	
-			console.log(parsedTpl);		
+			let parsedTpl = Ractive.parse(code, parseOptions);				
 			return {
 			  code: `export default ${JSON.stringify(parsedTpl)};`,
 			  map: { mappings: '' }
